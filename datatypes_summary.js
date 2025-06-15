@@ -22,6 +22,29 @@ const myfunction = function () {
 };
 console.log(typeof myfunction); // "function"
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and heap do type ki memory hoti hai stack(primitive) ,heap(Non primitive) hoti hai
+
+let myYoutubename = "Moin"
+
+let anotherName = myYoutubename
+anotherName = "steemen"
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userone ={
+    email: "moinshaikh@okaxis.com",
+    upi: "moinshaikh@ybl"
+}
+ let userTwo = userone
+ userTwo.email = "moin@gmail.com"
+
+ console.log (userone.email);
+ console.log(userTwo.email);
+
+
 
 
 
