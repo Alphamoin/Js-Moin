@@ -1,13 +1,15 @@
 const marvel_heros =["thor", "ironman", "spiderman"]
 const dc_heros = ["superman","flash","batman"]
 
-marvel_heros.push(dc_heros)         |
-console.log(marvel_heros)           | ----------> Aisa bhi likh sakte hai lekin better way nai hai 
-console.log(marvel_heros[3][1]);    |
+marvel_heros.push(dc_heros)         
+console.log(marvel_heros)              
+console.log(marvel_heros[3][1]); 
+
+//Aisa bhi likh sakte hai lekin better way nai hai 
 
  const allHeros = marvel_heros.concat(dc_heros)
  console.log(allHeros);
- Merge karne ka better way hai, upar wale se behter :)
+//  Merge karne ka better way hai, upar wale se behter :)
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
